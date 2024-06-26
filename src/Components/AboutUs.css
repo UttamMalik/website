@@ -1,0 +1,46 @@
+.about-us-container {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.about-us-content {
+    max-width: 600px;
+    text-align: center;
+}
+
+.about-us-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.about-us-content p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.about-us-stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stat {
+    text-align: center;
+    margin: 20px;
+}
+
+.stat img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    font-size: 1em;
+}
